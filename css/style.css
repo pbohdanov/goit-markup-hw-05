@@ -514,9 +514,9 @@ img {
 }
 
 .is-hidden {
-  /* opacity: 0;
+  opacity: 0;
   visibility: hidden;
-  pointer-events: none; */
+  pointer-events: none;
 }
 .modal {
   width: 408px;
