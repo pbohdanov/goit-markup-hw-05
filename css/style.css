@@ -475,6 +475,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link-icon:hover,
@@ -501,7 +502,7 @@ img {
 }
 /* ============ FOOTER END ========== */
 
-/* =========== MODAL SECTION START =========== */
+/* =========== MODAL WINDOW START =========== */
 .backdrop {
   position: fixed;
   top: 0;
@@ -557,11 +558,9 @@ img {
 }
 
 .modal-close-icon {
-  width: 8px;
-  height: 8px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* =========== MODAL SECTION END =========== */
+/* =========== MODAL WINDOW END =========== */
 
 /* ============== PORTFOLIO START ==============  */
 
