@@ -150,8 +150,9 @@ img {
   color: var(--color-address-nav-link-focus);
 }
 
-/* Main content */
-/* Hero section */
+/* =========== MAIN CONTENT START========== */
+
+/* ----- Hero section start ----- */
 .hero-section {
   background-color: var(--background-color-hero);
   padding: 188px 0;
@@ -195,6 +196,7 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -202,7 +204,7 @@ img {
   background-color: #404bbf;
 }
 
-/* Section 1 */
+/* ========== Section 2 - start ========== */
 
 .visually-hidden {
   position: absolute;
@@ -256,8 +258,8 @@ img {
   border-radius: 4px;
   background-color: var(--icon-background-colour);
 }
-
-/* Section 2  What we are doing*/
+/* ========== Section 2 - end ========== */
+/* ========== Section 3 - start ==========*/
 .work-examples {
   padding-bottom: 120px;
 }
@@ -282,8 +284,9 @@ img {
 .work-example-list-width {
   width: calc((100% - 48px) / 3);
 }
+/* ========== Section 3 - end ========== */
 
-/* Section 3  - Our Team */
+/* ========== Section 4 - start ========== */
 .team {
   display: flex;
   gap: 24px;
@@ -362,6 +365,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-icon:hover {
   background-color: #404bbf;
@@ -373,8 +377,8 @@ img {
 .social-icon {
   fill: var(--social-link-icon-colour);
 }
-
-/* ========== Customers - Section 4 ========== */
+/* ========== Section 4 - end ========== */
+/* ========== Section 5 - start ========== */
 
 .customer-section {
   padding-top: 120px;
@@ -423,6 +427,7 @@ img {
 .customer-icon {
   fill: currentColor;
 }
+/* ========== Section 5 - end ========== */
 
 /* ============ FOOTER START ========== */
 .footer {
