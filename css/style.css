@@ -416,6 +416,8 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--customer-section-icon-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-link-icon:hover,
